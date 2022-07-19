@@ -1,0 +1,166 @@
+@media all and (max-width: 363px){
+    .nav__menu ul li ul {
+        position: absolute;
+        top: 120%;
+        left: -80px;
+        width: 300px;
+        height: auto;
+        background: linear-gradient(to top right, #33ccff 0%, #ff6666 100%);
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        z-index: 9;
+    }
+}
+@media all and (max-width: 345px){
+    .nav__menu ul li ul {
+        position: absolute;
+        top: 120%;
+        left: -122px;
+        width: 300px;
+        height: auto;
+        background: linear-gradient(to top right, #33ccff 0%, #ff6666 100%);
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        z-index: 9;
+    }
+}
+@media all and (max-width: 530px){
+    .site__logo {
+        display: flex;
+        justify-content: center;
+    }
+    .header__part {
+        display: flex;
+        padding: 10px 0;
+        flex-direction: column;
+    }
+    .nav__menu ul li {
+        display: inline-block;
+        padding: 5px 10px;
+        transition: all 0.3s ease-in-out;
+        position: relative;
+    }
+    .nav__menu {
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+    }
+}
+@media all and (max-width: 430px){
+    .nav__menu span i {
+        display: inline-block;
+        color: white;
+        font-size: 30px;
+        position: relative;
+    }
+    .nav__menu span {
+        display: block;
+        cursor: pointer;
+    }
+    .nav__menu ul {
+        margin-bottom: 0 !important;
+        padding-left: 0;
+        opacity: 0;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .header__part {
+        display: flex;
+        padding: 10px 0;
+        flex-direction: row;
+    }
+    .nav__menu {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+    .nav__menu ul li {
+        display: block;
+        padding: 5px 10px;
+        transition: all 0.3s ease-in-out;
+        position: relative;
+    }
+    .nav__menu span:hover ~ ul {
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media all and (max-width: 320px){
+    .bg-gray-100.inline-flex.py-3.px-5.rounded-lg.items-center.hover\:bg-gray-200.focus\:outline-none {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .flex.md\:ml-auto.md\:mr-0.mx-auto.items-center.flex-shrink-0.space-x-4 {
+        flex-direction: column;
+    }
+    .nav__menu span {
+        display: none;
+        cursor: pointer;
+    }
+    .nav__menu span {
+        display: block;
+        cursor: pointer;
+    }
+    .alternative {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 30px;
+        z-index: 9;
+        opacity: 0.1;
+    }
+    .nav__menu {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        padding-right: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav__menu .alternative:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+    }
+    .nav__menu ul {
+        margin-bottom: 0 !important;
+        padding-left: 0;
+        opacity: 0;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    .nav__menu ul li ul {
+        position: absolute;
+        top: 120%;
+        left: 0px;
+        width: 300px;
+        height: auto;
+        background: linear-gradient(to top right, #33ccff 0%, #ff6666 100%);
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        z-index: 9;
+    }
+}
